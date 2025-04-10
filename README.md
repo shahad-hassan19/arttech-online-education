@@ -1,4 +1,4 @@
-# 🎓 ArtTech Institute – Learning Management System (LMS)
+# 🎓 ArtTech Online Education – Learning Management System (LMS)
 
 *Live Demo:* [https://online.arttechbsp.com/](https://online.arttechbsp.com/)  
 *Deployed on:* Vercel  
@@ -8,7 +8,7 @@
 
 ## 🧠 Overview
 
-*ArtTech Institute* is an online learning platform built to offer industry-relevant courses in *Excel*, *Power BI*, and *Tally Prime*. It supports features like video-based lessons, chapter progress tracking, learner dashboards, role-based admin controls, and automatic certificate generation.
+*ArtTech Online Education* is an online learning platform built to offer industry-relevant courses in *Excel*, *Power BI*, and *Tally Prime*. It supports features like video-based lessons, chapter progress tracking, learner dashboards, role-based admin controls, and automatic certificate generation.
 
 ---
 
@@ -78,14 +78,9 @@ export const isTeacher = (userId?: string | null): boolean => {
     process.env.NEXT_PUBLIC_ADMIN_ID
   ].includes(userId);
 };
-
+```
 
 Admin-only features (like course creation) are gated both at the UI level and route level.
-
---- 
-Perfect — Next.js's file-based routing is great for clean, scalable navigation.
-
-Here’s how I’ll write it up:
 
 ---
 
