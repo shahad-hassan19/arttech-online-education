@@ -8,7 +8,7 @@
 
 ## 🧠 Overview
 
-*ArtTech Online Education* is an online learning platform built to offer industry-relevant courses in *Excel*, *Power BI*, and *Tally Prime*. It supports features like video-based lessons, chapter progress tracking, learner dashboards, role-based admin controls, and automatic certificate generation.
+**ArtTech Online Education** is an online learning platform built to offer industry-relevant courses in **Excel**, **Power BI**, and **Tally Prime**. It supports features like video-based lessons, chapter progress tracking, learner dashboards, role-based admin controls, and automatic certificate generation.
 
 ---
 
@@ -72,7 +72,7 @@ ArtTech Institute leverages a modern and efficient tech stack to deliver a seaml
 
 Access is managed by identifying admin user IDs stored in .env and validating them via a utility function:
 ```javascript
-export const isTeacher = (userId?: string | null): boolean => {
+export const isAdmin = (userId?: string | null): boolean => {
   if (!userId) return false;
   return [
     process.env.NEXT_PUBLIC_ADMIN_ID
@@ -96,12 +96,6 @@ ArtTech Institute's interface is built with **Tailwind CSS**, ensuring a fully r
 
 ---
 
-Perfect — that’s exactly what “modular” means in this context. Thanks!
-
-Here’s how I’ll summarize your answer:
-
----
-
 ### 📦 Course Content Management
 
 - **Admins** are responsible for creating and uploading all course content, including **videos, text lessons, and downloadable files**.
@@ -113,10 +107,7 @@ Here’s how I’ll summarize your answer:
   - **Videos** are hosted on **Mux** for smooth streaming.
   - **Files and assets** are handled via **UploadThing** for secure and efficient uploads.
 - Courses and their chapters can be **updated anytime**, keeping the content fresh and relevant.
-
----
-Awesome — auto-generated certificates with personalized details are a **great finishing touch** for any LMS. Here's how I’ll write it:
-
+  
 ---
 
 ### 📄 Certificate Generation
@@ -138,12 +129,6 @@ ArtTech Institute is deployed on *Vercel* with production optimizations for perf
 
 ---
 
-Totally understandable — those two are **notoriously tricky parts** of any e-learning platform. Thanks for sharing!
-
-Here’s how I’ll document that section:
-
----
-
 ### 🛠️ Challenges Faced
 
 Building a full-fledged LMS like ArtTech Institute came with its share of challenges:
@@ -158,12 +143,6 @@ Building a full-fledged LMS like ArtTech Institute came with its share of challe
   - Ensuring videos were properly linked and secured within course chapters
 
 Overcoming these challenges strengthened the technical robustness of the platform and significantly enhanced the learning experience.
-
----
-
-Nice — that’s a solid mix of **technical depth and architectural thinking** 👏
-
-Here’s how I’ll write that up:
 
 ---
 
@@ -182,12 +161,6 @@ Developing ArtTech Institute was a major learning experience. Key takeaways incl
 
 ---
 
-Totally fair — your LMS is already quite powerful, and it’s smart to let users guide the next steps.
-
-Here’s how I’ll frame that:
-
----
-
 ### 🎯 Future Plans
 
 While no concrete roadmap is defined yet, the project remains open for future improvements based on user feedback and evolving needs. Potential areas for expansion include:
@@ -197,3 +170,10 @@ While no concrete roadmap is defined yet, the project remains open for future im
 - **Mobile app** adaptation for broader accessibility
 
 ---
+
+Thank you!
+**Shahad Hassan** 
+Full Stack Developer
+*Softles*
+
+
