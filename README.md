@@ -4,11 +4,13 @@
 *Deployed on:* Vercel  
 *Stack:* Next.js (TypeScript), Tailwind CSS, MongoDB, Prisma, Clerk, UploadThing, Mux, PhonePe
 
+
 ---
 
 ## 🧠 Overview
 
 **ArtTech Online Education** is an online learning platform built to offer industry-relevant courses in **Excel**, **Power BI**, and **Tally Prime**. It supports features like video-based lessons, chapter progress tracking, learner dashboards, role-based admin controls, and automatic certificate generation.
+
 
 ---
 
@@ -21,10 +23,10 @@ The platform is designed for:
 - *Working professionals*
 - *Beginners*
 
-There is *no age restriction, and both **learners and administrators* are supported within the system.
+There is *no age restriction*, and both *learners and administrators* are supported within the system.
+
 
 ---
-
 
 ## 🧩 Key Features
 
@@ -51,6 +53,7 @@ ArtTech Institute offers a range of essential features to ensure a seamless and 
   - **Admin Dashboard**: Manage all aspects of the platform, including users, courses, and payments.
   - **Learner Dashboard**: View enrolled courses, progress, and certificates.
 
+
 ---
 
 ### 🧱 Tech Stack Overview
@@ -65,6 +68,7 @@ ArtTech Institute leverages a modern and efficient tech stack to deliver a seaml
 - **File Uploads & Storage**: UploadThing, used for handling course materials and related assets.
 - **Video Handling**: Mux, enabling reliable and high-quality video streaming.
 - **Payments**: PhonePe integration to manage course purchases and transactions.
+
 
 ---
 
@@ -82,17 +86,20 @@ export const isAdmin = (userId?: string | null): boolean => {
 
 Admin-only features (like course creation) are gated both at the UI level and route level.
 
+
 ---
 
 ### 🎯 Routing & Navigation
 
 ArtTech Institute uses **Next.js’s built-in file-based routing system** to manage seamless navigation across the platform. Dynamic routes are utilized for pages like course details, chapter views, and user-specific dashboards. Routing is also protected and role-aware, ensuring that only authorized users can access certain pages (e.g., Admin dashboard vs Learner dashboard).
 
+
 ---
 
 ### 💻 Responsive & User-Friendly UI
 
 ArtTech Institute's interface is built with **Tailwind CSS**, ensuring a fully responsive and mobile-friendly experience across all devices. The design follows a **mobile-first approach**, with utility classes used extensively to adapt layouts and components to different screen sizes. Special attention was given to keeping the UI clean, intuitive, and accessible for both admins and learners.
+
 
 ---
 
@@ -107,6 +114,7 @@ ArtTech Institute's interface is built with **Tailwind CSS**, ensuring a fully r
   - **Videos** are hosted on **Mux** for smooth streaming.
   - **Files and assets** are handled via **UploadThing** for secure and efficient uploads.
 - Courses and their chapters can be **updated anytime**, keeping the content fresh and relevant.
+
   
 ---
 
@@ -120,12 +128,14 @@ ArtTech Institute provides **auto-generated certificates** upon successful compl
 
 Certificates are generated using a **pre-designed template**, with JavaScript dynamically injecting the relevant learner and course data. This ensures every learner receives a **personalized, professional-looking certificate** that they can download and share.
 
+
 ---
 
 ## 🚀 Deployment
 
 ArtTech Institute is deployed on *Vercel* with production optimizations for performance and stability.  
 🔗 *Live URL:* [https://online.arttechbsp.com/](https://online.arttechbsp.com/)
+
 
 ---
 
@@ -144,6 +154,7 @@ Building a full-fledged LMS like ArtTech Institute came with its share of challe
 
 Overcoming these challenges strengthened the technical robustness of the platform and significantly enhanced the learning experience.
 
+
 ---
 
 ### 💡 Lessons Learned
@@ -159,6 +170,7 @@ Developing ArtTech Institute was a major learning experience. Key takeaways incl
 - **Role-Based Access Control**: Built and enforced admin-specific capabilities throughout the app.
 - **Problem Solving & Debugging**: Tackled real-world issues such as asynchronous media handling, payment flow validation, and file uploads.
 
+
 ---
 
 ### 🎯 Future Plans
@@ -169,11 +181,12 @@ While no concrete roadmap is defined yet, the project remains open for future im
 - More **payment options**
 - **Mobile app** adaptation for broader accessibility
 
+
 ---
 
-Thank you!
-**Shahad Hassan** 
-Full Stack Developer
+Thank you! <br>
+**Shahad Hassan**  <br>
+Full Stack Developer <br>
 *Softles*
 
 
