@@ -71,8 +71,7 @@ ArtTech Institute leverages a modern and efficient tech stack to deliver a seaml
 ## 🔐 Role-Based Access Control
 
 Access is managed by identifying admin user IDs stored in .env and validating them via a utility function:
-
-ts
+```javascript
 export const isTeacher = (userId?: string | null): boolean => {
   if (!userId) return false;
   return [
