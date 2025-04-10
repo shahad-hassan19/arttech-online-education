@@ -8,13 +8,20 @@
 
 ## 🧠 Overview
 
-*ArtTech Institute* is an online learning platform built to offer industry-relevant courses in *Excel, **Power BI, and **Tally Prime*. It supports features like video-based lessons, chapter progress tracking, learner dashboards, role-based admin controls, and automatic certificate generation.
+*ArtTech Institute* is an online learning platform built to offer industry-relevant courses in *Excel*, *Power BI*, and *Tally Prime*. It supports features like video-based lessons, chapter progress tracking, learner dashboards, role-based admin controls, and automatic certificate generation.
 
 ---
 
 ## 👥 Target Audience
 
-Perfect — very inclusive! So it’s designed to be user-friendly and accessible to **anyone** interested in learning Excel, Power BI, or Tally Prime — whether they're students, beginners, or working professionals.
+It’s designed to be user-friendly and accessible to **anyone** interested in learning Excel, Power BI, or Tally Prime — whether they're students, beginners, or working professionals.
+
+The platform is designed for:
+- *Students*
+- *Working professionals*
+- *Beginners*
+
+There is *no age restriction, and both **learners and administrators* are supported within the system.
 
 ---
 
